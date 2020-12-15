@@ -10,7 +10,7 @@ Requirements:
 
 How to run:
 - Create a folder in Google Drive. This is where the images will be saved
-- Open a command line or Anaconda prompt and type "python /path/to/GEE_S2_downloader.py"
+- Open a command line or Anaconda prompt and type: python /path/to/script/GEE_S2_downloader.py
 
 Features:
 - You can select from Sentinel-2 product level 1C and 2A
