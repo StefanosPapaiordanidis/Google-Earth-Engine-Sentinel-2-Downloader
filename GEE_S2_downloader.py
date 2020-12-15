@@ -30,6 +30,10 @@ if geojson_OR_coords == 1:
     with open(geojson_path) as f:
         gj = geojson.load(f)
     features = gj['features'][0]
+    for f in range(len(features['geometry']['coordinates'][0][0])):
+        if len(features['geometry']['coordinates'][0][0][f]) > 2:
+            features['geometry']['coordinates'][0][0][f] = features['geometry']['coordinates'][0][0][f][:2]
+    
     coords = features['geometry']['coordinates'][0][0]
 
 elif geojson_OR_coords == 2:
