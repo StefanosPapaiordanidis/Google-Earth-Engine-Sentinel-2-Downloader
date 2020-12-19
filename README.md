@@ -3,7 +3,7 @@ This script downloads Sentinel-2 images from Google Earth Engine to a specified 
 Each image is a .tif file named after the image product-id with all Sentinel-2 bands, clipped with a user-specified polygon. 
 
 Requirements:
-- A Google account with Google Earth Engine Access ((https://signup.earthengine.google.com)
+- A Google account with Google Earth Engine Access (https://signup.earthengine.google.com)
 - Python 3.7.6 (maybe it works on later versions, haven't tried it) 
 - earthengine-api (https://pypi.org/project/earthengine-api/)
 - geojson (https://pypi.org/project/geojson/)
